@@ -8,7 +8,7 @@ Tested on: Official KitKat 1.2.2 | Unofficial CM12.1 | Beta 3 Lollipop
 
 All Recovery files are included inside the apk so there's no need to download the recovery img files and flash them on the device like before.
 
-This project is a "clone" of https://github.com/DcSoK/E6-recoveryChanger but, since the goal of the app is to change the recovery for a this specific device, I decided to create a new project instead of commiting changes to a new branch on the other project (which is meant for bq Aquaris E6).
+This project is a "clone" of https://github.com/DcSoK/E6-recoveryChanger but, since the goal of the app is to change the recovery for this specific device, I decided to create a new project instead of commiting changes to a new branch on the other project (which is meant for bq Aquaris E6).
 
 <b>Credits</b>:
 
