@@ -13,7 +13,11 @@ This project is a "clone" of https://github.com/DcSoK/E6-recoveryChanger but, si
 <b>Credits</b>:
 
 TeamWin Recovery Project - For TWRP Recovery
+
 Kra1o5 - Builder of TWRP for FHD
+
 Phil3759 - For PhilZ Touch Recovery
+
 tvcastro - Ported PhilZ to FHD
+
 DcSoK - For original code
