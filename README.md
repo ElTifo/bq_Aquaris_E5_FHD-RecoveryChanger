@@ -12,11 +12,11 @@ This project is a "clone" of https://github.com/DcSoK/E6-recoveryChanger but, si
 
 <b>Credits</b>:
 
-TeamWin Recovery Project - For TWRP Recovery
+TeamWin Recovery Project - For TWRP Recovery - https://twrp.me/
 
-Kra1o5 - Builder of TWRP for FHD
+Kra1o5 - Builder of TWRP for FHD - https://github.com/TeamWin/android_device_bq_vegetafhd
 
-Phil3759 - For PhilZ Touch Recovery
+Phil3759 - For PhilZ Touch Recovery - https://github.com/PhilZ-cwm6/philz_touch_cwm6
 
 tvcastro - Ported PhilZ to FHD
 
