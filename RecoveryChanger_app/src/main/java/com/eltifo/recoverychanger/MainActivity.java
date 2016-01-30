@@ -8,9 +8,11 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import fr.castorflex.android.circularprogressbar.CircularProgressDrawable;
 
 import java.util.ArrayList;
 
@@ -102,7 +104,12 @@ public class MainActivity extends AppCompatActivity {
         localAlertDialog.setMessage(paramString2);
         localAlertDialog.setButton(-1, getString(android.R.string.ok), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt) {
-                ProgressDialog progress = new ProgressDialog(com.eltifo.recoverychanger.MainActivity.this);
+                ProgressDialog progress = new ProgressDialog(new ContextThemeWrapper(com.eltifo.recoverychanger.MainActivity.this, R.style.dialog));
+                progress.setIndeterminateDrawable(new CircularProgressDrawable
+                        .Builder(com.eltifo.recoverychanger.MainActivity.this)
+                        .color(R.color.md_falcon_700)
+                        .style(CircularProgressDrawable.STYLE_NORMAL)
+                        .build());
                 if (Build.VERSION.RELEASE.equals("4.4.2") || Build.VERSION.RELEASE.equals("4.4.4") || Build.VERSION.RELEASE.equals("5.1.1")) {
                     progress.setMessage(getText(R.string.Installing) + getRecoveryName(RECTYPE_STK_KK));
                     new copyRawToSD(progress, com.eltifo.recoverychanger.MainActivity.this).execute(RECTYPE_STK_KK);
@@ -131,7 +138,12 @@ public class MainActivity extends AppCompatActivity {
         {
             public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
             {
-                ProgressDialog progress = new ProgressDialog(com.eltifo.recoverychanger.MainActivity.this);
+                ProgressDialog progress = new ProgressDialog(new ContextThemeWrapper(com.eltifo.recoverychanger.MainActivity.this, R.style.dialog));
+                progress.setIndeterminateDrawable(new CircularProgressDrawable
+                        .Builder(com.eltifo.recoverychanger.MainActivity.this)
+                        .color(R.color.md_falcon_700)
+                        .style(CircularProgressDrawable.STYLE_NORMAL)
+                        .build());
                 if (Build.VERSION.RELEASE.equals("4.4.2") || Build.VERSION.RELEASE.equals("4.4.4") || Build.VERSION.RELEASE.equals("5.1.1")){
                     progress.setMessage(getText(R.string.Installing) + getRecoveryName(RECTYPE_TWRP_KK));
                     new copyRawToSD(progress, com.eltifo.recoverychanger.MainActivity.this).execute(RECTYPE_TWRP_KK);
@@ -163,7 +175,12 @@ public class MainActivity extends AppCompatActivity {
         {
             public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
             {
-                ProgressDialog progress = new ProgressDialog(com.eltifo.recoverychanger.MainActivity.this);
+                ProgressDialog progress = new ProgressDialog(new ContextThemeWrapper(com.eltifo.recoverychanger.MainActivity.this, R.style.dialog));
+                progress.setIndeterminateDrawable(new CircularProgressDrawable
+                        .Builder(com.eltifo.recoverychanger.MainActivity.this)
+                        .color(R.color.md_falcon_700)
+                        .style(CircularProgressDrawable.STYLE_NORMAL)
+                        .build());
                 if (Build.VERSION.RELEASE.equals("4.4.2") || Build.VERSION.RELEASE.equals("4.4.4") || Build.VERSION.RELEASE.equals("5.1.1")){
                     progress.setMessage(getText(R.string.Installing) + getRecoveryName(RECTYPE_PHL_KK));
                     new copyRawToSD(progress, com.eltifo.recoverychanger.MainActivity.this).execute(RECTYPE_PHL_KK);

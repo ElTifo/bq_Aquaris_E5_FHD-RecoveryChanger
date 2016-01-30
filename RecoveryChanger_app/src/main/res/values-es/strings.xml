@@ -8,7 +8,7 @@
     <string name="stock_confirm">Desea instalar el Recovery bq original?</string>
     <string name="twrp_confirm">Desea instalar el Recovery TWRP?</string>
     <string name="rootstat"><b>Estado de acceso root</b>:</string>
-    <string name="root_not_OK_info2">Su dispositivo o no tiene acceso root, o el permiso de root no hay sido habilitado!</string>
+    <string name="root_not_OK_info2">Su dispositivo o no tiene acceso root, o el permiso de root no ha sido habilitado!</string>
     <string name="root_not_OK_info1">Imposible de ejecutar como root!!</string>
     <string name="root_not_OK">Sin acceso root</string>
     <string name="root_OK">Con acceso root</string>

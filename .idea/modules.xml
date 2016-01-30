@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RecoveryChanger_app/RecoveryChanger_app.iml" filepath="$PROJECT_DIR$/RecoveryChanger_app/RecoveryChanger_app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bq_Aquaris_E5_FHD-RecoveryChanger-master.iml" filepath="$PROJECT_DIR$/bq_Aquaris_E5_FHD-RecoveryChanger-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bq_Aquaris_E5_FHD-RecoveryChanger.iml" filepath="$PROJECT_DIR$/bq_Aquaris_E5_FHD-RecoveryChanger.iml" />
     </modules>
   </component>
 </project>
