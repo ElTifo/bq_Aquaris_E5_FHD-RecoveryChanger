@@ -21,3 +21,5 @@ Phil3759 - For PhilZ Touch Recovery - https://github.com/PhilZ-cwm6/philz_touch_
 tvcastro - Ported PhilZ to FHD
 
 DcSoK - For original code
+
+Castorflex - For Circular progress bar - https://github.com/castorflex/SmoothProgressBar
