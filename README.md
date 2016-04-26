@@ -2,7 +2,7 @@
 
 <b>Android Studio Project - Recovery Changer App for bq Aquaris E5 FHD</b>
 
-This app is compatible with any ROM running on official KitKat and Lollipop (Beta 3) kernels.
+This app is compatible with any ROM running on official KitKat and Lollipop kernels.
 
 Tested on: Official KitKat 1.2.2 | Unofficial CM12.1 | Unofficial CM13 | Unofficial MinimalOS | Official Beta Lollipop 2.0.0
 
