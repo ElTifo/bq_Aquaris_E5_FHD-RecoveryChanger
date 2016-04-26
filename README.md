@@ -4,7 +4,7 @@
 
 This app is compatible with any ROM running on official KitKat and Lollipop (Beta 3) kernels.
 
-Tested on: Official KitKat 1.2.2 | Unofficial CM12.1 | Beta 3 Lollipop
+Tested on: Official KitKat 1.2.2 | Unofficial CM12.1 | Unofficial CM13 | Unofficial MinimalOS | Official Beta Lollipop 2.0.0
 
 All Recovery files are included inside the apk so there's no need to download the recovery img files and flash them on the device like before.
 
